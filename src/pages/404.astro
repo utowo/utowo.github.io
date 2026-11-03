@@ -1,0 +1,13 @@
+---
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+---
+
+<MainGridLayout title="404">
+  <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+    <div class="card-base z-10 px-9 py-12 relative w-full flex flex-col items-center justify-center text-center">
+      <div class="text-7xl font-bold text-[var(--primary)]">404</div>
+      <p class="mt-5 text-neutral-500 dark:text-neutral-400">这条鲸鱼游丢了……页面不存在。</p>
+      <a href="/" class="btn-regular rounded-lg h-10 px-5 mt-6 font-bold active:scale-95">返回首页</a>
+    </div>
+  </div>
+</MainGridLayout>
